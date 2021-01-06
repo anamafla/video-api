@@ -5,7 +5,8 @@ const videos = require("../data/data");
 
 const resolvers = {
   Query: {
-    Videos: () => videos
+    videos: () => videos,
+    video: (_, { id }) => videos.find(video => video.id == id)
   }
 };
 

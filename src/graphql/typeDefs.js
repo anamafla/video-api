@@ -1,16 +1,27 @@
 const { gql } = require("apollo-server-lambda");
 
 const typeDefs = gql`
-  type videos {
+  type Videos {
     id: ID
     description: String
-    source: String
+    sources: String
     subtitle: String
+    thumb: String
+    title: String
+  }
+
+  type Video {
+    id: ID
+    description: String
+    sources: String
+    subtitle: String
+    thumb: String
     title: String
   }
 
   type Query {
-    Videos: [videos]
+    video(id: ID!): Video
+    videos: [Videos]
   }
 `;
 
