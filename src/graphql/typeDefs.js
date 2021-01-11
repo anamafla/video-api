@@ -4,19 +4,29 @@ const typeDefs = gql`
   type Videos {
     id: ID
     description: String
-    sources: String
+    videoUrl: String
     subtitle: String
     thumb: String
-    title: String
+    name: String
+    slug: String
+    duration: String
+    sort: Int
+    isCompleted: Boolean
+    category: String
   }
 
   type Video {
     id: ID
     description: String
-    sources: String
+    videoUrl: String
     subtitle: String
     thumb: String
-    title: String
+    name: String
+    slug: String
+    duration: String
+    sort: Int
+    isCompleted: Boolean
+    category: String
   }
 
   type Query {
