@@ -29,9 +29,17 @@ const typeDefs = gql`
     category: String
   }
 
+  type Sections {
+    id: ID!
+    name: String
+    sort: Int
+    videos: [Video]
+  }
+
   type Query {
     video(id: ID!): Video
     videos: [Videos]
+    sections: [Sections]
   }
 `;
 
