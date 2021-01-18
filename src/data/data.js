@@ -10,7 +10,7 @@ module.exports = [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg",
     name: "Big Buck Bunny",
     slug: "big-buck-bunny",
-    duration: "20min",
+    duration: 635,
     sort: 1,
     isCompleted: false,
     category: "Blender"
@@ -27,7 +27,7 @@ module.exports = [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/Sintel.jpg",
     name: "Sintel",
     slug: "sintel",
-    duration: "20min",
+    duration: 888,
     sort: 2,
     isCompleted: false,
     category: "Blender"
@@ -43,7 +43,7 @@ module.exports = [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/TearsOfSteel.jpg",
     name: "Tears of Steel",
     slug: "tears-of-steel",
-    duration: "20min",
+    duration: 734,
     sort: 3,
     isCompleted: false,
     category: "Blender"
@@ -59,7 +59,7 @@ module.exports = [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg",
     name: "Elephant Dream",
     slug: "elephant-dream",
-    duration: "20min",
+    duration: 654,
     sort: 4,
     isCompleted: false,
     category: "Blender"
@@ -75,7 +75,7 @@ module.exports = [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerBlazes.jpg",
     name: "For Bigger Blazes",
     slug: "for-bigger-blazes",
-    duration: "20min",
+    duration: 15,
     sort: 1,
     isCompleted: false,
     category: "Google"
@@ -91,7 +91,7 @@ module.exports = [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerEscapes.jpg",
     name: "For Bigger Escape",
     slug: "for-bigger-escape",
-    duration: "20min",
+    duration: 15,
     sort: 2,
     isCompleted: false,
     category: "Google"
@@ -107,7 +107,7 @@ module.exports = [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerFun.jpg",
     name: "For Bigger Fun",
     slug: "for-bigger-fun",
-    duration: "20min",
+    duration: 60,
     sort: 3,
     isCompleted: false,
     category: "Google"
@@ -123,7 +123,7 @@ module.exports = [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerJoyrides.jpg",
     name: "For Bigger Joyrides",
     slug: "for-bigger-joyrides",
-    duration: "20min",
+    duration: 15,
     sort: 4,
     isCompleted: false,
     category: "Google"
@@ -139,7 +139,7 @@ module.exports = [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerMeltdowns.jpg",
     name: "For Bigger Meltdowns",
     slug: "for-bigger-meltdowns",
-    duration: "20min",
+    duration: 15,
     sort: 5,
     isCompleted: false,
     category: "Google"

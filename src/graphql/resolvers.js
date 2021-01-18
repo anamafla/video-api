@@ -2,8 +2,6 @@
 const videos = require("../data/data");
 const sections = require("../data/data-section");
 
-// const videos = [{}];
-
 const resolvers = {
   Query: {
     videos: () => videos,

@@ -9,7 +9,7 @@ const typeDefs = gql`
     thumb: String
     name: String
     slug: String
-    duration: String
+    duration: Int
     sort: Int
     isCompleted: Boolean
     category: String
@@ -23,7 +23,7 @@ const typeDefs = gql`
     thumb: String
     name: String
     slug: String
-    duration: String
+    duration: Int
     sort: Int
     isCompleted: Boolean
     category: String
