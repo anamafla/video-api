@@ -41,6 +41,22 @@ const typeDefs = gql`
     videos: [Videos]
     sections: [Sections]
   }
+
+  type Mutation {
+    updateVideo(
+      id: ID!
+      description: String
+      videoUrl: String
+      subtitle: String
+      thumb: String
+      name: String
+      slug: String
+      duration: Int
+      sort: Int
+      isCompleted: Boolean
+      category: String
+    ): Video!
+  }
 `;
 
 module.exports = typeDefs;
